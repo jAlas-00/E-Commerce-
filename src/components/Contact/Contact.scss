@@ -1,0 +1,31 @@
+.Contact{
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+
+    .wrapper{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 50%;
+        input{
+            padding: 8px;
+            border: none;
+            border-radius: 5px 0 0 5px;
+        }
+        button{
+            padding: 8px;
+            color: white;
+            background: grey;
+            border: none;
+            border-radius: 0 5px 5px 0;
+        }
+
+        .icons{
+            display: flex;
+            gap: 10px;
+        }
+    }
+}
